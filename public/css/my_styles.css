@@ -20,3 +20,25 @@
   .primary-button:active {
     background-color: darkblue;
   }
+
+  .secondary-button {
+    background-color: rgb(186, 184, 184);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+    box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+    -webkit-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+    -moz-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+  }
+
+  .secondary-button:hover {
+    background-color: gray;
+  }
+
+  .secondary-button:active {
+    background-color: darkgray;
+  }
