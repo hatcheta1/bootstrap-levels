@@ -1,0 +1,22 @@
+
+.primary-button {
+    background-color: rgb(34, 89, 255);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+    box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+    -webkit-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+    -moz-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+  }
+
+  .primary-button:hover {
+    background-color: blue;
+  }
+
+  .primary-button:active {
+    background-color: darkblue;
+  }
